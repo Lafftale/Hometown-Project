@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 30px 0;
+    color: #040B62;
+}
+
+h2, h3, p {
+    color: #040B62;
+}
+
+#hero-section {
+    background-image: url("images/SollentunaKommun.jpeg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 0;
+    margin: 0;
+}
+
+#hero-section-p {
+    background: #2638F7;
+    margin: 0;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+#hero-section-h1 {
+    margin: 0 0 10px 0;
+    color: #040B62;
+    background-color: #FCF6B1;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 36px;
+}
+
+#body-top-three {
+    background: linear-gradient(#A9E5BB, #FCF6B1) ;
+    margin: 0px;
+    padding: 40px 0;
+}
+#top-three-section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.icon-top-three {
+    width: 175px;
+    border: 2px solid #FCF6B1;
+    border-radius: 50%;
+}
+
+.column-top-three {
+    padding: 0px 10px;
+}
+
+.h3-top-three {
+    font-size: 22px;
+}
+
+.top-three-button {
+    background-color: #2638F7;
+    color: #FCF6B1;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 2px solid #2638F7;
+    border-radius: 10px;
+}
+
+.top-three-button:hover {
+    color: #2638F7;
+    background-color: #FCF6B1;
+}
+
+#guide-card {
+display: flex;
+align-items: center;
+width: 600px;
+margin: 50px auto;
+padding: 15px 30px;
+background: linear-gradient(#A9E5BB, #FCF6B1) ;
+border: 2px solid #A9E5BB;
+border-radius: 10px;
+border-bottom: 5px solid #A9E5BB
+}
+
+#guide-img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+#h3-card {
+    margin: 10px 0 0 0;
+}
+
+#card-right-container {
+    padding-left: 10px;
+}
